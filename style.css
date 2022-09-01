@@ -68,7 +68,7 @@ body {
   top: 100%;
 }
 .trapdoor .github-button {
-  margin-left: -74px;
+  margin-left: -22.5%;
   position: absolute !important;
   margin-top: -18px;
   left: 50%;
@@ -229,3 +229,29 @@ section#top {
 ::-webkit-scrollbar {
 	display: none;
 }
+
+/*-----------------------------Image Gallery-------------------------------------*/
+
+.image-gallery{
+  margin: 30px 50px;
+  width: 80%;
+  max-height: 50%;
+}
+
+.image-gallery img{
+  width: 270px;
+  height: 500px;
+  padding: 5px;
+  filter: grayscale(70%);
+}
+
+.image-gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.image-gallery a{
+  text-decoration: none;
+}
+
