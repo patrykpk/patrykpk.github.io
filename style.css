@@ -255,3 +255,25 @@ section#top {
   text-decoration: none;
 }
 
+/*-----------------------------Link Colors-------------------------------------*/
+a:link {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
